@@ -1,6 +1,6 @@
 {
   "name": "buildkite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My Buildkite builds. As a menubar app",
   "main": "main.js",
   "build": {
