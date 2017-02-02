@@ -1,0 +1,31 @@
+{
+  "name": "buildkite",
+  "version": "0.0.1",
+  "description": "My Buildkite builds. As a menubar app",
+  "main": "main.js",
+  "build": {
+    "productName": "BuildKite",
+    "appId": "com.jamesmacfie.buildkite",
+    "asar": false
+  },
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build",
+    "start": "electron ."
+  },
+  "bin": {
+    "electron": "./node_modules/.bin/electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^3.1.4",
+    "menubar": "^5.2.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^10.8.1",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}

@@ -1,0 +1,30 @@
+#nav-container .container > .flex > .flex {
+	display: none;
+}
+
+#nav-container .container > .flex .flex:first-child.border-gray {
+	border-right: none;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#nav-container .container > .flex .flex:first-child.border-gray a {
+	padding-right: 0;
+}
+
+#nav-container .container ~ div {
+	display: none;
+}
+
+#user-build-counts-breakdown, #footer-container, .site-footer__group--social__slack {
+	display: none;
+}
+
+.build-panel .build-info {
+	display: none;
+}
+
+#project-hero {
+	display: none;
+}
