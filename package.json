@@ -1,15 +1,15 @@
 {
   "name": "buildkite",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "My Buildkite builds. As a menubar app",
   "main": "main.js",
   "build": {
     "productName": "BuildKite",
     "appId": "com.jamesmacfie.buildkite",
     "asar": true,
-		"linux": {
-			"target": "tar.gz"
-		}
+    "linux": {
+      "target": "tar.gz"
+    }
   },
   "scripts": {
     "release": "build -mwl",
