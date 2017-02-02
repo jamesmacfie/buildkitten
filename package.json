@@ -6,11 +6,13 @@
   "build": {
     "productName": "BuildKite",
     "appId": "com.jamesmacfie.buildkite",
-    "asar": false
+    "asar": true,
+		"linux": {
+			"target": "tar.gz"
+		}
   },
   "scripts": {
-    "pack": "build --dir",
-    "dist": "build",
+    "release": "build -mwl",
     "start": "electron ."
   },
   "bin": {
