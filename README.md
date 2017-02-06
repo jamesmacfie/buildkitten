@@ -1,10 +1,10 @@
-# BuildKite - My Builds
+# Build Kitten - My Buildkite builds
 
 ![](logo.png)
 
-A small menubar app that shows your BuildKite Builds. Supports MacOS, Windows, and Linux.
+A small menubar app that shows your Buildkite Builds. Supports MacOS, Windows, and Linux.
 
-Download the current version: [v0.1.0](https://github.com/jamesmacfie/buildkite/releases/tag/v0.1.0)
+Download the current version: [v0.1.0](https://github.com/jamesmacfie/buildkitten/releases/tag/v0.1.0)
 
 ![](demo.png)
 

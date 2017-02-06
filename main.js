@@ -24,7 +24,7 @@ function loadCSS() {
 
 function setUpMainMenu() {
   const template = [{
-    label: "My BuildKite",
+    label: "Build Kitten",
     submenu: [
       { label: "Quit", accelerator: "Command+Q", click: function() { app.quit(); }}
   ]}, {
@@ -43,7 +43,7 @@ function setUpMainMenu() {
     submenu: [{
       label: 'Raise an issue',
       click() {
-        shell.openExternal('https://github.com/jamesmacfie/buildkite/issues');
+        shell.openExternal('https://github.com/jamesmacfie/buildkitten/issues');
       }
     }]
 }];

@@ -1,11 +1,11 @@
 {
-  "name": "buildkite",
+  "name": "buildkitten",
   "version": "0.1.0",
-  "description": "My Buildkite builds. As a menubar app",
+  "description": "My Buildkite builds. As a menubar app. Also something about cats",
   "main": "main.js",
   "build": {
-    "productName": "BuildKite",
-    "appId": "com.jamesmacfie.buildkite",
+    "productName": "Build Kitten",
+    "appId": "com.jamesmacfie.buildkitten",
     "asar": true,
     "linux": {
       "target": "tar.gz"
