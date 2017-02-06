@@ -4,7 +4,7 @@
 
 A small menubar app that shows your Buildkite Builds. Supports MacOS, Windows, and Linux.
 
-Download the current version: [v0.1.0](https://github.com/jamesmacfie/buildkitten/releases/tag/v0.1.0)
+Download the current version: [v0.2.0](https://github.com/jamesmacfie/buildkitten/releases/tag/v0.2.0)
 
 ![](demo.png)
 
